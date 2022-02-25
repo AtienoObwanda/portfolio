@@ -37,15 +37,6 @@ body {
        flex-direction: column !important;
     }
    
-
-    
-    .about{
-        background-color: #e7dcc8;
-        width: 100%;
-        height: 700px;
-
-
-    }
     .projects{
         background-color: #582719;
         width: 100%;
@@ -184,4 +175,33 @@ body {
         display:block;
         margin:0.4em auto;
         }
+        }
+        .about{
+            
+            display: -webkit-flex;
+            display: flex;
+            justify-content: space-between;
+    
+        }
+        .abtPic{
+            background-color: #e7dcc8;
+            float: left;
+            border-radius: 5%;
+            width:800px;
+            height: 600px;
+            margin-left: 80px;
+            padding-bottom: 2%;
+            margin-bottom: 1%;
+
+        }
+        .abtText{
+            background-color: #e7dcc8;
+            float: left;
+            border-radius: 5%;
+            width:800px;
+            height: 600px;
+            margin-right: 80px;
+            padding-bottom: 2%;
+            margin-bottom: 1%;
+
         }
