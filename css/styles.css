@@ -18,21 +18,21 @@ body {
     .top{
         background-color: #582719;
         width: 100%;
-        height: 800px;
+        height: 600px;
 
 
     }
     .about{
         background-color: #e7dcc8;
         width: 100%;
-        height: 400px;
+        height: 700px;
 
 
     }
     .projects{
         background-color: #582719;
         width: 100%;
-        height: 600px;
+        height: 900px;
 
     }
     .footer{
