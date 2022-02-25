@@ -9,17 +9,37 @@ body {
 	padding: 0;
 	}
     .nav{
+        background-color: #e7dcc8;
+        width: 100%;
+        height: 50px;
+
 
     }
     .top{
+        background-color: #582719;
+        width: 100%;
+        height: 800px;
+
 
     }
     .about{
+        background-color: #e7dcc8;
+        width: 100%;
+        height: 400px;
+
 
     }
     .projects{
+        background-color: #582719;
+        width: 100%;
+        height: 600px;
 
     }
     .footer{
-        
+    background-color: #e7dcc8;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    text-align: center;
+    margin-top: 50px;
     }
