@@ -1,27 +1,48 @@
+
 html {
 	margin: 0;
 	padding: 0;
 	}
 body { 
-	font: 75% georgia, sans-serif;
-	line-height: 1.88889;
 	margin: 0; 
 	padding: 0;
 	}
+
     .nav{
         background-color: #e7dcc8;
         width: 100%;
         height: 50px;
-
-
     }
     .top{
-        background-color: #582719;
-        width: 100%;
-        height: 600px;
-
-
+        
+        /* background-color: #582719; 
+        display: flex; */
+        align-items: center !important;
+        text-align: center !important;
+        justify-content: center !important;
+        height: 10% !important;
+        min-height: fit-content !important;
+        
     }
+    .profile{
+       margin-top:0px !important;
+    }
+   .top img{
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        width: 100% !important; 
+        height: 60vh !important;
+        margin-bottom: -200px !important;
+        display: flex !important;
+       flex-direction: column !important;
+    }
+   /* .shape img{
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 50px;
+    }*/
+    
     .about{
         background-color: #e7dcc8;
         width: 100%;
@@ -43,3 +64,127 @@ body {
     text-align: center;
     margin-top: 50px;
     }
+    .shapeP{
+        margin-top: -7%;
+        height: 17.8%;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+    .shapeC{
+        width: 100%;
+        height: 100%;
+        max-width: 1920px;
+    }
+    .shapeP img{
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 70px;
+    }
+    @media screen and (max-width: 1110px) {
+        .shapeP{
+            display: flex;
+            align-items: flex-end;
+        }
+        
+    }
+    .pInfo{
+        display: flex !important;
+        align-items: center !important;
+        text-align: center!important;
+        justify-content: center !important;
+        height: 10% !important;
+        min-height: fit-content !important;
+
+    }
+    .pCont{
+        display: flex !important;
+        align-items: center !important;
+        color: aliceblue !important;
+    }
+    .pDEtails{
+        margin-bottom: 30%;
+        
+    }
+    .pdName{
+        font-size: 24px !important;
+        font-family: "Poppins SemiBold" !important;
+    }
+    .nameH{
+        color: orangered !important;
+    }
+    .pText{
+        color: white !important;
+    }
+    .pdRole{
+        display: flex !important;
+        flex-direction: column !important;
+        margin: 14px o 24px 0 !important;
+    }
+    .pTag{
+        font-size: 19px;
+        margin: 5px 0 0 0;
+        font-family: "Poppins Light";
+
+    }
+   
+    .profilepic{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 1px 0px 0px var(--white);
+        border-radius: 50%;
+        height: 380px !important;
+        width: 380px !important;
+        /*margin: 0 0px 0 100px;*/
+        margin-left: 500px;
+       
+        margin-top: -5%;
+
+    }
+    .profilebg img{
+        height: 90% !important;
+        width: 90% !important;
+        background-size: cover !important;
+        border-radius: 50%;
+        background-repeat: no-repeat !important;
+    }
+    .home{
+        margin-top: -30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 400px;
+        margin-bottom: -200px;
+    }
+   
+    a.button2{
+        display:inline-block;
+        padding:0.5em 3em;
+        border:0.16em solid #FFFFFF;
+        margin:5em 0.3em 0.3em 0;
+        box-sizing: border-box;
+        text-decoration:none;
+        text-transform:uppercase;
+        font-family:'Roboto',sans-serif;
+        font-weight:400;
+        color:#FFFFFF;
+        text-align:center;
+        transition: all 0.15s;
+        }
+        a.button2:hover{
+        color:#DDDDDD;
+        border-color:#DDDDDD;
+        }
+        a.button2:active{
+        color:#BBBBBB;
+        border-color:#BBBBBB;
+        }
+        @media all and (max-width:30em){
+        a.button2{
+        display:block;
+        margin:0.4em auto;
+        }
+        }
