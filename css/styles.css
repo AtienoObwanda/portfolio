@@ -36,12 +36,8 @@ body {
         display: flex !important;
        flex-direction: column !important;
     }
-   /* .shape img{
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        height: 50px;
-    }*/
+   
+
     
     .about{
         background-color: #e7dcc8;
@@ -65,7 +61,7 @@ body {
     margin-top: 50px;
     }
     .shapeP{
-        margin-top: -7%;
+        margin-top: 15%;
         height: 17.8%;
         width: 100%;
         overflow: hidden;
@@ -111,22 +107,23 @@ body {
     .pdName{
         font-size: 24px !important;
         font-family: "Poppins SemiBold" !important;
+        margin-top: 3em;
     }
-    .nameH{
+    span.nameH{
         color: orangered !important;
     }
-    .pText{
+    span.pText{
         color: white !important;
     }
     .pdRole{
         display: flex !important;
         flex-direction: column !important;
-        margin: 14px o 24px 0 !important;
+        margin: 3em 0 24px 0 !important;
     }
-    .pTag{
-        font-size: 19px;
-        margin: 5px 0 0 0;
-        font-family: "Poppins Light";
+    span.pTag{
+        font-size: 19px !important;
+        
+        font-family: "Poppins Light" !important;
 
     }
    
@@ -141,7 +138,7 @@ body {
         /*margin: 0 0px 0 100px;*/
         margin-left: 500px;
        
-        margin-top: -5%;
+        margin-top: -7%;
 
     }
     .profilebg img{
@@ -164,7 +161,7 @@ body {
         display:inline-block;
         padding:0.5em 3em;
         border:0.16em solid #FFFFFF;
-        margin:5em 0.3em 0.3em 0;
+        margin:7em 3em 1em 0;
         box-sizing: border-box;
         text-decoration:none;
         text-transform:uppercase;
@@ -175,12 +172,12 @@ body {
         transition: all 0.15s;
         }
         a.button2:hover{
-        color:#DDDDDD;
-        border-color:#DDDDDD;
+        color:#582719;
+        border-color:#582719;
         }
         a.button2:active{
-        color:#BBBBBB;
-        border-color:#BBBBBB;
+        color:#582719;
+        border-color:#582719;
         }
         @media all and (max-width:30em){
         a.button2{
