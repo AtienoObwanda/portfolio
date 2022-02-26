@@ -253,11 +253,31 @@ body {
             margin-right: 80px;
             padding-bottom: 2%;
             margin-bottom: 1%;
+            
 
         }
-        .abtText :hover{
-            transform: scale(1.1);
+        .abtText p{
+            font-size: 1em !important;
+            font-weight: normal !important;
+            vertical-align: middle !important;
+            font-family: cursive;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-top: 5%;
+            margin-right: 2%;
+            margin-left: 2%;
         }
+        .abtText li{
+            font-size: 0.850em !important;
+            font-weight: normal !important;
+            vertical-align: middle !important;
+            font-family: 'Times New Roman', Times, serif;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-right: 2%;
+            margin-left: 2%;
+        }
+        
         /* .projects{
             background-color: #582719;
             width: 100%;
@@ -398,8 +418,29 @@ body {
                 margin-left: 20em;
                 
             }
-            /*HOVER: 
-            .abtPic :hover{
-                
-            transform: scale(1.1);
-        }*/
+            .fa {
+                padding: 20px;
+                font-size: 30px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+              }
+              
+              /* Add a hover effect if you want */
+              .fa:hover {
+                opacity: 0.7;
+              }
+              
+              /* Set a specific color for each brand */
+              
+              /* Facebook */
+              .fa-facebook {
+                background: #3B5998;
+                color: white;
+              }
+              
+              /* Twitter */
+              .fa-twitter {
+                background: #55ACEE;
+                color: white;
+              }
