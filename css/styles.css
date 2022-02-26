@@ -326,3 +326,59 @@ body {
         .colz .colzIcon i:hover{
             transform: scale(1.5);
         }
+        .abtMe p{
+            text-align: center;
+        }
+        .abtMe h1 {
+            overflow: hidden;
+            text-align: center;
+            font-family: 'Abril Fatface', cursive;         }
+          
+          .abtMe h1:before,
+          .abtMe h1:after {
+            background-color: #582719;
+            content: "";
+            display: inline-block;
+            height: 1px;
+            position: relative;
+            vertical-align: middle;
+            width: 50%;
+          }
+          
+          .abtMe h1:before {
+            right: 0.5em;
+            margin-left: -50%;
+          }
+          
+          .abtMe h1:after {
+            left: 0.5em;
+            margin-right: -50%;
+          }
+          .abtMe{
+            margin-top: 2em;
+            margin-bottom: 2em;
+            margin-right: 20em;
+            margin-left: 20em;
+            
+        }
+         .toP h1 {
+            display: flex;
+            flex-direction: row;
+          }
+          .toP h1:before, h1:after{
+            content: "";
+            flex: 1 1;
+            border-bottom: 1px solid;
+            margin: auto;
+          }
+          .toP h1:before {
+            margin-right: 10px
+          }
+          .toP h1:after {
+            margin-left: 10px
+          }
+          .toP{
+              margin: 2% 2% 0 0;
+          }
+          
+        
