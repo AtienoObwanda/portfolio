@@ -75,7 +75,7 @@ body {
         color: #582719;
     }
     .shapeP{
-        margin-top: 15%;
+        margin-top: 12%;
         height: 17.8%;
         width: 100%;
         overflow: hidden;
@@ -133,6 +133,10 @@ body {
         display: flex !important;
         flex-direction: column !important;
         margin: 3em 0 24px 0 !important;
+    }
+    .pdRole h1{
+        margin bottom: 1em !important;
+
     }
     span.pTag{
         font-size: 19px !important;
@@ -300,10 +304,11 @@ body {
             font-family: cursive;
             padding-left: 10px;
             padding-right: 10px;
-            margin-top: 4%;
+            margin-top: 2%;
             margin-right: 2%;
             margin-left: 2%;
             color: #FFFFFF;
+            line-height: 30px;
         }
         .abtText li{
             font-size: 0.850em !important;
