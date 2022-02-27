@@ -38,15 +38,41 @@ body {
         display: flex !important;
        flex-direction: column !important;
     }
-   
-   
-    .footer{
+    .footerSocial{
     background-color: #e7dcc8;
+    background-image: url('../images/bg.jpg');
     width: 100%;
     height: 50px;
     margin-top: 20px;
     text-align: center;
     margin-top: 50px;
+    vertical-align: middle;
+    margin-bottom: -4%;
+    }
+   
+    .footer{
+   background-image: url('../images/bg.jpg');
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    text-align: center;
+    margin-top: 50px;
+    vertical-align: middle;
+    overflow: hidden;
+    }
+    .footer h1{
+
+        margin-top: 15px;
+        line-height: 51px;
+        vertical-align: middle;
+        font-size: medium;
+        color: #FFFFFF !important;
+        font-weight: bold !important;
+    
+    }
+
+    .footer text{
+        color: #582719;
     }
     .shapeP{
         margin-top: 15%;
@@ -98,7 +124,7 @@ body {
         margin-top: 3em;
     }
     span.nameH{
-        color: orangered !important;
+        color: #a5694b !important;
     }
     span.pText{
         color: white !important;
@@ -119,22 +145,31 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        box-shadow: 0px 1px 0px 0px var(--white);
+        /*box-shadow: 0px 1px 0px 0px var(--white);*/
+        box-shadow: 0px 1px 0px 0px lightblue;
         border-radius: 50%;
         height: 380px !important;
         width: 380px !important;
         /*margin: 0 0px 0 100px;*/
         margin-left: 500px;
        
-        margin-top: -7%;
+        margin-top: -6%;
 
     }
+    
     .profilebg img{
-        height: 90% !important;
-        width: 90% !important;
+        height: 92% !important;
+        width: 92% !important;
         background-size: cover !important;
         border-radius: 50%;
         background-repeat: no-repeat !important;
+        margin-top: -33%;
+        margin-left: 15px;
+
+    }
+    .profilebg :hover{
+        transform: scale(1.07);
+    transition: 1s ease-out;
     }
     .home{
         margin-top: -30%;
@@ -225,6 +260,7 @@ body {
             }
 
         .abtPic{
+            
             background-color: #e7dcc8;
             float: left;
             border-radius: 5%;
@@ -241,10 +277,11 @@ body {
             background-size: cover;
             background-repeat: no-repeat;
             width: 100%; 
-            height: 65vh;
+            height: 70vh;
             border-radius: 5%;
         }
         .abtText{
+            background-image: url('../images/bg.jpg');
             background-color: #e7dcc8;
             float: left;
             border-radius: 5%;
@@ -263,9 +300,10 @@ body {
             font-family: cursive;
             padding-left: 10px;
             padding-right: 10px;
-            margin-top: 5%;
+            margin-top: 4%;
             margin-right: 2%;
             margin-left: 2%;
+            color: #FFFFFF;
         }
         .abtText li{
             font-size: 0.850em !important;
@@ -276,6 +314,8 @@ body {
             padding-right: 10px;
             margin-right: 2%;
             margin-left: 2%;
+            color: #e7dcc8;
+            line-height: 23px;
         }
         
         /* .projects{
@@ -291,6 +331,7 @@ body {
             margin: 2% 2% 0 0;
         }
         .p1{
+            background-image: url('../images/bg.jpg');
             background-color: #582719;
             float: left;
             border-radius: 5%;
@@ -300,7 +341,9 @@ body {
             padding-bottom: 2%;
            
         }
+        
         .p2{
+            background-image: url('../images/bg.jpg');
             background-color: #582719;
             float: left;
             border-radius: 5%;
@@ -311,6 +354,7 @@ body {
             
         }
         .p3{
+            background-image: url('../images/bg.jpg');
             background-color: #582719;
             float: left;
             border-radius: 5%;
@@ -321,6 +365,7 @@ body {
             
         }
         .p4{
+            background-image: url('../images/bg.jpg');
             background-color: #582719;
             float: left;
             border-radius: 5%;
@@ -331,6 +376,7 @@ body {
           
         }
         .p5{
+            background-image: url('../images/bg.jpg');
             background-color: #582719;
             float: left;
             border-radius: 5%;
@@ -341,6 +387,7 @@ body {
             
         }
         .p6{
+            background-image: url('../images/bg.jpg') ;
             background-color: #582719;
             float: left;
             border-radius: 5%;
@@ -418,6 +465,7 @@ body {
                 margin-left: 20em;
                 
             }
+            
             .fa {
                 padding: 20px;
                 font-size: 30px;
@@ -426,21 +474,43 @@ body {
                 text-decoration: none;
               }
               
-              /* Add a hover effect if you want */
+              /* Add a hover effect  */
               .fa:hover {
                 opacity: 0.7;
+                color: #a5694b;
               }
               
               /* Set a specific color for each brand */
-              
-              /* Facebook */
-              .fa-facebook {
-                background: #3B5998;
+              .fa-facebook { 
+               color: white;
+              }
+              .fa-twitter {
                 color: white;
               }
-              
-              /* Twitter */
-              .fa-twitter {
-                background: #55ACEE;
+              .fa-envelope{
                 color: white;
+              }
+              .fa-github{
+                color: white;
+              }
+              .fa-instagram{
+                color: white;
+              }
+              .fa-linkedin{
+                color: white;
+              }
+
+
+              /*MEDIA QUERIES*/
+              @media screen and (max-width: 1110px){
+                  
+              }
+              @media screen and (max-width: 910px){
+
+              }
+              @media screen and (max-width: 810px){
+
+              }
+              @media screen and (max-width: 375px){
+
               }
