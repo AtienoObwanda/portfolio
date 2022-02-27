@@ -201,6 +201,7 @@ body {
         a.button2:hover{
         color:#582719;
         border-color:#582719;
+        text-decoration: none !important;
         }
         a.button2:active{
         color:#582719;
@@ -240,6 +241,7 @@ body {
             a.button3:hover{
             color:#582719;
             border-color:#582719;
+            text-decoration: none !important;
             }
             a.button3:active{
             color:#582719;
