@@ -1,4 +1,4 @@
-#Author:
+## Author:
     Atieno Obwanda
 # portfolio
     This is a portfolio built for a beginner level web developer. The portfolio tells you about the developer, contains a visual representation, their social media     account as well as contct, and most importantly, proves their capability of being able to actually get the work done, through their top projects. 
