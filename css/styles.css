@@ -135,7 +135,7 @@ body {
         margin: 3em 0 24px 0 !important;
     }
     .pdRole h1{
-        margin bottom: 1em !important;
+        margin-bottom: 1em !important;
 
     }
     span.pTag{
@@ -337,6 +337,32 @@ body {
             justify-content: space-between;
             margin: 2% 2% 0 0;
         }
+        
+        .p p{
+            color: #FFFFFF !important;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: medium;
+            line-height: 30px;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+        .p h3{
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        .p a{
+            color: #e7dcc8 !important;
+            font-family: Yesteryear, cursive;
+            font-weight: bold;
+            text-align: center!important;
+            margin-left: 15;
+            margin-right: 15px;
+        }
+        .p a:hover{
+            color: #582719 !important;
+            text-decoration: none;
+
+        }
         .p1{
             background-image: url('../images/bg.jpg');
             background-color: #582719;
@@ -371,39 +397,8 @@ body {
             padding-bottom: 2%;
             
         }
-        .p4{
-            background-image: url('../images/bg.jpg');
-            background-color: #582719;
-            float: left;
-            border-radius: 5%;
-            width:800px;
-            height: 600px;
-            margin: 0 30px;
-            padding-bottom: 2%;
-          
-        }
-        .p5{
-            background-image: url('../images/bg.jpg');
-            background-color: #582719;
-            float: left;
-            border-radius: 5%;
-            width:800px;
-            height: 600px;
-            margin: 0 30px;
-            padding-bottom: 2%;
-            
-        }
-        .p6{
-            background-image: url('../images/bg.jpg') ;
-            background-color: #582719;
-            float: left;
-            border-radius: 5%;
-            width:800px;
-            height: 600px;
-            margin: 0 30px;
-            padding-bottom: 2%;
-            margin-bottom: 1%;
-        }
+       
+       
         .colz .colzIcon i{
             color: white;
             padding: 8px;
@@ -506,7 +501,9 @@ body {
               .fa-linkedin{
                 color: white;
               }
-
+    
+     
+   
 
               /*MEDIA QUERIES*/
               @media screen and (max-width: 1110px){
