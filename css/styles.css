@@ -506,15 +506,68 @@ body {
    
 
               /*MEDIA QUERIES*/
+
               @media screen and (max-width: 1110px){
+                  .profilepic{
+                      margin:0 0px 0 80px;
+                  }
+                  .pdName{
+                      font-size:20px;
+                  }
+                  .pdRole .pText{
+                      font-size: 12px;
+                  }
+                  .profile-options .btn{
+                    width: 120px;
+                    padding: 11px 0;
+                    z-index: 700;
+                  }
+                  .btnbtn{
+                    width: 120px;
+                    padding: 11px 0;
+                    z-index: 700;
+                  }
 
               }
               @media screen and (max-width: 910px){
+                .profilepic{
+                    height: 320px;
+                    width: 320px;
+                    margin: 0 0 0 4px;
+                }
 
               }
               @media screen and (max-width: 810px){
+                  .profilepic{
+                      margin: 0!important;
+                  }
+                  .pCont{
+                    flex-direction:column-reverse;
+                    margin: 40px 0 0 0;
+                  }
+                  .profile-options{
+                    display: flex;
+                    justify-content: space-between;
+                }
+                .pDEtails{
+                    margin: 25px 0 0;
+                }
+                .profile-options .button2{
+                    margin: 0 !important;
+                }
+                .profile-options, .pdRole{
+                    text-align: center;
+                }
 
               }
               @media screen and (max-width: 375px){
+                .profilepic{
+                    height: 275px;
+                    width: 275px;
+                    margin-top: -90px;
+                }
+                .pDEtails{
+                    width: 90%;
+                }
 
               }
