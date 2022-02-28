@@ -6,23 +6,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HIRE ME</title>
     <!--CSS stylesheet-->
-    <link rel="stylesheet" href="./css/contact.css">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
    
 </head>
+<style type="text/css">
+    body{
+        background-image: radial-gradient(circle farthest-corner at 10% 20%, 
+        rgba(234 , 249, 251, 0.63) 0.1%, rgba(239,249,251,0.63) 90.1%);
+    }
+</style>
 <body>
-    <div class="form-popup" id="myForm">
-        <form action="/action_page.php" class="form-container">
-          <h1>Login</h1>
-      
-          <label for="email"><b>Email</b></label>
-          <input type="text" placeholder="Enter Email" name="email" required>
-      
-          <label for="psw"><b>Password</b></label>
-          <input type="password" placeholder="Enter Password" name="psw" required>
-      
-          <button type="submit" class="btn">Login</button>
-          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+
+<div class="container">
+<section class="mb-4">
+<h2 class="h1-responsive font-weight-bold text-center my-5">HIRE ME</h2>
+<p class="text-center w-responsive mx-auto mb-5"> Let's talk about your next big project...</p>
+<div class="row">
+    <div class="col-md-9 mb-md-0 mb-5">
+        <form id="contactform">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="md-form mb-0">
+                        <input type="text" name="name" class="form-control">
+                        <label for="name">Your Name</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="md-form mb-0">
+                        <input type="text" name="email" class="form-control">
+                        <label for="email">Your Email</label>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                   <div class="md-form mb-0">
+                        <input type="text" name="subject" class="form-control">
+                        <label for="subject">Subject</label>
+                   </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="md-form">
+                        <textarea type="text" name="message" rows="3" class="form-control md-textarea"> 
+                        </textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                </div>
+
+            </div>
+            <div class="text-center text md-left">
+                <button class="btn btn-primary" type="submit">SEND</button>
+                <a href="index.html"><p>BACK TO PORTFOLIO</p></a>
+            </div>
         </form>
-      </div>
+    </div>
+    <div class="col-md-3 text-center text-primary">
+        <ul class="list-unstyled mb-0">
+            <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                <p class="text-dark">Nairobi, Kenya</p></li>
+            <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                <p class="text-dark">+254 743 068 355</p></li>
+            <li><i class="fas fa-envelope mt-4  fa-2x"></i>
+                <p class="text-dark">Atienoobwanda@gmail.com</p></li>
+            
+
+
+
+
+
+        </ul>
+    </div>
+</div>
+</section>
+
+</div>
+
+
+
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
 </body>
+   
 </html>

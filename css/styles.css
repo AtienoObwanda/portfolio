@@ -204,8 +204,8 @@ body {
         text-decoration: none !important;
         }
         a.button2:active{
-        color:#582719;
-        border-color:#582719;
+        color:#a5694b;
+        border-color:#e7dcc8;
         }
         @media all and (max-width:30em){
         a.button2{
@@ -227,7 +227,7 @@ body {
             
             padding:0.5em 10em;
             border:0.16em solid #e7dcc8;
-            margin:7em 3em 1em 0;
+            margin:7em 8em 1em 0em;
             box-sizing: border-box;
             text-decoration:none;
             text-transform:uppercase;
